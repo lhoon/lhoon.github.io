@@ -12,6 +12,12 @@ p {
 	font-size: 20px;
 }
 
+p.quote {
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+}
+
 p.small {
 	font-size: 16px;
 }
@@ -22,6 +28,15 @@ a:focus,
 a:active,
 a.active {
 	outline: 0;
+	color: #F38630;
+}
+
+a.skill {
+	color: #233140;
+	border-bottom: dotted 1px;
+}
+
+a.skill:hover {
 	color: #F38630;
 }
 
@@ -110,7 +125,7 @@ header .intro-text .name {
 	display: block;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 700;
 	color: #233140;
 }
@@ -128,10 +143,11 @@ header .intro-text .skills {
 	}
 
 	header .intro-text .name {
-		font-size: 4.75em;
+		font-size: 3em;
 	}
 
 	header .intro-text .skills {
+		text-align: center;
 		font-size: 1.75em;
 	}
 }
@@ -267,7 +283,7 @@ section.success {
 .btn-outline {
 	margin-top: 15px;
 	border: solid 2px #fff;
-	font-size: 20px;
+	font-size: 35px;
 	color: #fff;
 	background: 0 0;
 	transition: all .3s ease-in-out;
