@@ -18,6 +18,12 @@ p.quote {
 	font-style: italic;
 }
 
+p.quoter {
+	font-size: 14px;
+	text-align: right;
+	font-style: italic;
+}
+
 p.small {
 	font-size: 16px;
 }
