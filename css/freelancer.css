@@ -8,18 +8,14 @@ body {
 	overflow-x: hidden;
 }
 
-p {
-	font-size: 20px;
-}
-
-p.quote {
+span.quote {
 	font-size: 20px;
 	text-align: center;
 	font-style: italic;
 }
 
-p.quoter {
-	font-size: 14px;
+span.quoter {
+	font-size: 16px;
 	text-align: right;
 	font-style: italic;
 }
