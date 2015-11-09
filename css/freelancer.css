@@ -20,6 +20,11 @@ span.quoter {
 	font-style: italic;
 }
 
+p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
 p.small {
 	font-size: 16px;
 }
@@ -38,8 +43,12 @@ a.skill {
 	border-bottom: dotted 1px;
 }
 
-a.skill:hover {
-	color: #F38630;
+a.about {
+	color: #ffffff;
+	border-bottom: dotted 1px;
+}
+a.about:hover {
+	color: #233140;
 }
 
 h1,
