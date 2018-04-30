@@ -142,6 +142,12 @@ a:active,a:focus,a:hover {
 	color:#824027
 	}
 
+.anchor {
+	display: block;
+	position: relative;
+	top: -90px;
+	visibility:hidden;
+} 
 
 img {
   vertical-align: middle;
@@ -157,3 +163,4 @@ img {
   height: auto;
   border-radius: 6px;
 }
+
