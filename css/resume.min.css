@@ -147,7 +147,7 @@ a:active,a:focus,a:hover {
 	position: relative;
 	top: -90px;
 	visibility:hidden;
-} 
+}
 
 img {
   vertical-align: middle;
@@ -162,5 +162,9 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
+}
+
+.small {
+	font-size: small;
 }
 
